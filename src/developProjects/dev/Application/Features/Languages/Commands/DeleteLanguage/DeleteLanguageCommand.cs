@@ -14,7 +14,7 @@ namespace Application.Features.Languages.Commands.DeleteLanguage
     public class DeleteLanguageCommand : IRequest<DeleteLanguageDto>
     {
         public int Id { get; set; }
-    
+
 
         public class DeleteLanguageHandler : IRequestHandler<DeleteLanguageCommand, DeleteLanguageDto>
         {
@@ -40,7 +40,7 @@ namespace Application.Features.Languages.Commands.DeleteLanguage
                 return deleteLanguageDto;
             }
 
-           
+
         }
     }
 }

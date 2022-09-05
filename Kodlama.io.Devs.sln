@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "corePackages", "corePackage
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "developProjects", "developProjects", "{9A3C3C57-2EF5-4503-BCD1-53A9643585A1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dev", "dev", "{D22A4FFD-DA21-4E7F-9614-057E381DBAD4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kodlama.io.Devs", "Kodlama.io.Devs", "{D22A4FFD-DA21-4E7F-9614-057E381DBAD4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "src\corePackages\Core.Application\Core.Application.csproj", "{4BB66AE1-35F7-4F2D-951E-BC6879282A09}"
 EndProject

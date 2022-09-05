@@ -40,12 +40,6 @@ namespace WebAPI.Controllers
 
         }
 
-        //[HttpPost]
-        //public async Task<IActionResult> Update([FromBody] UpdateLanguageCommand updateLanguageCommand)
-        //{
-        //    UpdateLanguageDto result = await Mediator.Send(updateLanguageCommand);
-        //    return Created("", result);
-        //}
 
         [HttpPut("update/{Id}")]
         public async Task<IActionResult> Update([FromRoute] int Id, [FromBody] string name)

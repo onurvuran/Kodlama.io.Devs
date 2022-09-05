@@ -13,7 +13,7 @@ namespace Persistence.Contexts
     {
         protected IConfiguration Configuration { get; set; }
         public DbSet<Language> Languages { get; set; }
-       
+
 
         public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration) : base(dbContextOptions)
         {
@@ -38,10 +38,10 @@ namespace Persistence.Contexts
 
 
 
-            Language[] LanguageEntitySeeds = { new(1, "Python"), new(2, "C#") , new(3,"Java"),new(4,"Javascript") };
+            Language[] LanguageEntitySeeds = { new(1, "Python"), new(2, "C#"), new(3, "Java"), new(4, "Javascript") };
             modelBuilder.Entity<Language>().HasData(LanguageEntitySeeds);
 
-           
+
         }
     }
 }

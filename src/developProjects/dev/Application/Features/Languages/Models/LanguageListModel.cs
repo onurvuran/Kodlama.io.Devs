@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Application.Features.Languages.Models
 {
-    public class LanguageListModel:BasePageableModel
+    public class LanguageListModel : BasePageableModel
     {
         public IList<LanguageListDto> Items { get; set; }
     }
