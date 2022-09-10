@@ -21,6 +21,9 @@
 
   <ItemGroup>
     <Folder Include="Features\Languages\Constants\" />
+    <Folder Include="Features\Technology\Constants\" />
+    <Folder Include="Features\Technology\Rules\" />
+    <Folder Include="Services\Repositories\AuthServiceRepository\" />
   </ItemGroup>
 
 </Project>

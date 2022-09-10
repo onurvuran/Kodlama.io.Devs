@@ -9,29 +9,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "corePackages", "corePackage
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "developProjects", "developProjects", "{9A3C3C57-2EF5-4503-BCD1-53A9643585A1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kodlama.io.Devs", "Kodlama.io.Devs", "{D22A4FFD-DA21-4E7F-9614-057E381DBAD4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dev", "dev", "{D22A4FFD-DA21-4E7F-9614-057E381DBAD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "src\corePackages\Core.Application\Core.Application.csproj", "{4BB66AE1-35F7-4F2D-951E-BC6879282A09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Application", "src\corePackages\Core.Application\Core.Application.csproj", "{4BB66AE1-35F7-4F2D-951E-BC6879282A09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.CrossCuttingConcerns", "src\corePackages\Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj", "{ECB97C36-31C5-4E8E-81BC-71AAE5AC1E50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.CrossCuttingConcerns", "src\corePackages\Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj", "{ECB97C36-31C5-4E8E-81BC-71AAE5AC1E50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.ElasticSearch", "src\corePackages\Core.ElasticSearch\Core.ElasticSearch.csproj", "{CF34F631-77C6-4012-9CB7-7872F7ABA859}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.ElasticSearch", "src\corePackages\Core.ElasticSearch\Core.ElasticSearch.csproj", "{CF34F631-77C6-4012-9CB7-7872F7ABA859}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Mailing", "src\corePackages\Core.Mailing\Core.Mailing.csproj", "{64305E0C-BD73-46FC-81D0-6A043619C412}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Mailing", "src\corePackages\Core.Mailing\Core.Mailing.csproj", "{64305E0C-BD73-46FC-81D0-6A043619C412}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Persistence", "src\corePackages\Core.Persistence\Core.Persistence.csproj", "{47B86E19-9199-4E4E-9BCF-1337F6549982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Persistence", "src\corePackages\Core.Persistence\Core.Persistence.csproj", "{47B86E19-9199-4E4E-9BCF-1337F6549982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Security", "src\corePackages\Core.Security\Core.Security.csproj", "{8ED36903-78F8-417F-975E-25F9332E541C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Security", "src\corePackages\Core.Security\Core.Security.csproj", "{8ED36903-78F8-417F-975E-25F9332E541C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\developProjects\dev\Application\Application.csproj", "{C8DA7D06-0C99-438B-8491-27A81AB18716}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\developProjects\dev\Application\Application.csproj", "{C8DA7D06-0C99-438B-8491-27A81AB18716}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\developProjects\dev\Domain\Domain.csproj", "{F24CF945-22D1-4D61-89A3-ED5D9F27D3DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\developProjects\dev\Domain\Domain.csproj", "{F24CF945-22D1-4D61-89A3-ED5D9F27D3DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\developProjects\dev\Infrastructure\Infrastructure.csproj", "{F13A23A8-33CD-43A8-B1E8-B9C87590A405}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\developProjects\dev\Infrastructure\Infrastructure.csproj", "{F13A23A8-33CD-43A8-B1E8-B9C87590A405}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "src\developProjects\dev\Persistence\Persistence.csproj", "{23F107A5-B168-4D50-83AC-3E394C213D92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "src\developProjects\dev\Persistence\Persistence.csproj", "{23F107A5-B168-4D50-83AC-3E394C213D92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "src\developProjects\dev\WebAPI\WebAPI.csproj", "{AE22C605-3C4B-4F30-ADFB-2B6AA5202945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "src\developProjects\dev\WebAPI\WebAPI.csproj", "{AE22C605-3C4B-4F30-ADFB-2B6AA5202945}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
