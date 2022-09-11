@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
-    public class UsersController : BaseController
+    public class AuthsController : BaseController
     {
         [HttpPost]
         public async Task<ActionResult> Register([FromBody] RegisterUserCommand registerUserCommand)
@@ -23,6 +23,5 @@ namespace WebAPI.Controllers
             LoggedInUserDto result = await Mediator.Send(loginUserQuery);
             return Ok(result);
         }
-
     }
 }
