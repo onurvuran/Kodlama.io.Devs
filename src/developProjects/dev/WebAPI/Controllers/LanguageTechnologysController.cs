@@ -42,5 +42,6 @@ namespace WebAPI.Controllers
             var result = await Mediator.Send(updateLAnguageTechnologyCommand);
             return Ok(result);
         }
+        //
     }
 }
