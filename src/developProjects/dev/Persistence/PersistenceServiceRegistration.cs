@@ -23,6 +23,8 @@ namespace Persistence
                                                          configuration.GetConnectionString("DevConnectionString")));
             services.AddScoped<ILanguageRepository, LanguageRepository>();
             services.AddScoped<ILanguageTechnologyRepository, LanguageTechnologyRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IGitHubLinkRepository, GitHubLinkRepository>();
 
             return services;
         }
